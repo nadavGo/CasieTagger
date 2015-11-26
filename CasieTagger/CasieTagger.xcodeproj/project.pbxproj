@@ -101,14 +101,14 @@
 		E4F840F91C073FBC008D925B /* CasieTagger */ = {
 			isa = PBXGroup;
 			children = (
-				E4F840FD1C073FBC008D925B /* AppDelegate.h */,
-				E4F840FE1C073FBC008D925B /* AppDelegate.m */,
 				E4F841001C073FBC008D925B /* ViewController.h */,
 				E4F841011C073FBC008D925B /* ViewController.m */,
 				E4F841031C073FBC008D925B /* Main.storyboard */,
 				E4F841061C073FBC008D925B /* Assets.xcassets */,
-				E4F841081C073FBC008D925B /* LaunchScreen.storyboard */,
 				E4F8410B1C073FBC008D925B /* Info.plist */,
+				E4F840FD1C073FBC008D925B /* AppDelegate.h */,
+				E4F840FE1C073FBC008D925B /* AppDelegate.m */,
+				E4F841081C073FBC008D925B /* LaunchScreen.storyboard */,
 				E4F840FA1C073FBC008D925B /* Supporting Files */,
 			);
 			path = CasieTagger;

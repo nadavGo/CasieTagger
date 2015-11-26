@@ -15,6 +15,8 @@
 		E4F8410A1C073FBC008D925B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F841081C073FBC008D925B /* LaunchScreen.storyboard */; };
 		E4F841151C073FBC008D925B /* CasieTaggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F841141C073FBC008D925B /* CasieTaggerTests.m */; };
 		E4F841201C073FBC008D925B /* CasieTaggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F8411F1C073FBC008D925B /* CasieTaggerUITests.m */; };
+		F801F1371C07503F008A90E5 /* taggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F801F1361C07503F008A90E5 /* taggingViewController.m */; };
+		F801F13A1C075299008A90E5 /* items.m in Sources */ = {isa = PBXBuildFile; fileRef = F801F1391C075299008A90E5 /* items.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E4F8411B1C073FBC008D925B /* CasieTaggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasieTaggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F8411F1C073FBC008D925B /* CasieTaggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasieTaggerUITests.m; sourceTree = "<group>"; };
 		E4F841211C073FBC008D925B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F801F1351C07503F008A90E5 /* taggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taggingViewController.h; sourceTree = "<group>"; };
+		F801F1361C07503F008A90E5 /* taggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taggingViewController.m; sourceTree = "<group>"; };
+		F801F1381C075299008A90E5 /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = items.h; sourceTree = "<group>"; };
+		F801F1391C075299008A90E5 /* items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = items.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				E4F840FE1C073FBC008D925B /* AppDelegate.m */,
 				E4F841081C073FBC008D925B /* LaunchScreen.storyboard */,
 				E4F840FA1C073FBC008D925B /* Supporting Files */,
+				F801F1351C07503F008A90E5 /* taggingViewController.h */,
+				F801F1361C07503F008A90E5 /* taggingViewController.m */,
+				F801F1381C075299008A90E5 /* items.h */,
+				F801F1391C075299008A90E5 /* items.m */,
 			);
 			path = CasieTagger;
 			sourceTree = "<group>";
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F801F1371C07503F008A90E5 /* taggingViewController.m in Sources */,
 				E4F841021C073FBC008D925B /* ViewController.m in Sources */,
 				E4F840FF1C073FBC008D925B /* AppDelegate.m in Sources */,
 				E4F840FC1C073FBC008D925B /* main.m in Sources */,
+				F801F13A1C075299008A90E5 /* items.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				E4F841261C073FBC008D925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4F841271C073FBC008D925B /* Build configuration list for PBXNativeTarget "CasieTaggerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				E4F841291C073FBC008D925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4F8412A1C073FBC008D925B /* Build configuration list for PBXNativeTarget "CasieTaggerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				E4F8412C1C073FBC008D925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

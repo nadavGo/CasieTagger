@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  item.h
 //  CasieTagger
 //
 //  Created by orcam on 11/26/15.
 //  Copyright © 2015 orcam. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface item : NSObject
 
-
+@property NSString* name;
 @end
-

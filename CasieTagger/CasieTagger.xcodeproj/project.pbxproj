@@ -17,6 +17,7 @@
 		E4F841201C073FBC008D925B /* CasieTaggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F8411F1C073FBC008D925B /* CasieTaggerUITests.m */; };
 		F801F1371C07503F008A90E5 /* taggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F801F1361C07503F008A90E5 /* taggingViewController.m */; };
 		F801F13A1C075299008A90E5 /* items.m in Sources */ = {isa = PBXBuildFile; fileRef = F801F1391C075299008A90E5 /* items.m */; };
+		F801F13D1C0AD70A008A90E5 /* taggingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F801F13C1C0AD70A008A90E5 /* taggingTime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		F801F1361C07503F008A90E5 /* taggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taggingViewController.m; sourceTree = "<group>"; };
 		F801F1381C075299008A90E5 /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = items.h; sourceTree = "<group>"; };
 		F801F1391C075299008A90E5 /* items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = items.m; sourceTree = "<group>"; };
+		F801F13B1C0AD70A008A90E5 /* taggingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taggingTime.h; sourceTree = "<group>"; };
+		F801F13C1C0AD70A008A90E5 /* taggingTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taggingTime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				F801F1361C07503F008A90E5 /* taggingViewController.m */,
 				F801F1381C075299008A90E5 /* items.h */,
 				F801F1391C075299008A90E5 /* items.m */,
+				F801F13B1C0AD70A008A90E5 /* taggingTime.h */,
+				F801F13C1C0AD70A008A90E5 /* taggingTime.m */,
 			);
 			path = CasieTagger;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F801F13D1C0AD70A008A90E5 /* taggingTime.m in Sources */,
 				F801F1371C07503F008A90E5 /* taggingViewController.m in Sources */,
 				E4F841021C073FBC008D925B /* ViewController.m in Sources */,
 				E4F840FF1C073FBC008D925B /* AppDelegate.m in Sources */,

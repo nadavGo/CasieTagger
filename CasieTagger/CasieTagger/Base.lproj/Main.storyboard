@@ -72,7 +72,8 @@
                                 <animations/>
                                 <state key="normal" title="start tagging"/>
                                 <connections>
-                                    <action selector="startTaggingButtoPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="wEB-j3-U2r"/>
+                                    <action selector="startTaggingButtoPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="SuQ-5y-MPc"/>
+                                    <action selector="startTaggingButtonPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="len-QX-7Uk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHX-j8-vWf">
@@ -80,7 +81,8 @@
                                 <animations/>
                                 <state key="normal" title="stop tagging"/>
                                 <connections>
-                                    <action selector="stopTaggingButtoPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="R9M-kt-408"/>
+                                    <action selector="stopTaggingButtoPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="nYb-qr-xQ7"/>
+                                    <action selector="stopTaggingButtonPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="RbX-4w-X5h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dM1-jj-4QO">
@@ -90,9 +92,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="hold to tag"/>
-                                <connections>
-                                    <action selector="holdToTagButtonPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="etk-Z6-z2Y"/>
-                                </connections>
                             </button>
                         </subviews>
                         <animations/>

@@ -10,6 +10,7 @@
 
 @interface items : NSObject
 
-@property (strong, nonatomic) NSArray* times;
+@property (strong, nonatomic) NSMutableArray* taggingTimes;
+// descriptor
 
 @end

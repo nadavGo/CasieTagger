@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		E4F840FC1C073FBC008D925B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F840FB1C073FBC008D925B /* main.m */; };
 		E4F840FF1C073FBC008D925B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F840FE1C073FBC008D925B /* AppDelegate.m */; };
-		E4F841021C073FBC008D925B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F841011C073FBC008D925B /* ViewController.m */; };
 		E4F841051C073FBC008D925B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F841031C073FBC008D925B /* Main.storyboard */; };
 		E4F841071C073FBC008D925B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F841061C073FBC008D925B /* Assets.xcassets */; };
 		E4F8410A1C073FBC008D925B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F841081C073FBC008D925B /* LaunchScreen.storyboard */; };
 		E4F841151C073FBC008D925B /* CasieTaggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F841141C073FBC008D925B /* CasieTaggerTests.m */; };
 		E4F841201C073FBC008D925B /* CasieTaggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F8411F1C073FBC008D925B /* CasieTaggerUITests.m */; };
+		E4F841311C075095008D925B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F841301C075095008D925B /* MainViewController.m */; };
+		E4F841341C0750C3008D925B /* TagsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F841331C0750C2008D925B /* TagsTableViewController.m */; };
+		E4F841351C075138008D925B /* CasieSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F8412D1C074DF2008D925B /* CasieSDK.framework */; };
+		E4F841361C075138008D925B /* CasieSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4F8412D1C074DF2008D925B /* CasieSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4F8413A1C075C68008D925B /* section.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F841391C075C68008D925B /* section.m */; };
+		E4F8413D1C075C7C008D925B /* item.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F8413C1C075C7C008D925B /* item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +39,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E4F841371C075138008D925B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E4F841361C075138008D925B /* CasieSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E4F840F71C073FBC008D925B /* CasieTagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasieTagger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F840FB1C073FBC008D925B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F840FD1C073FBC008D925B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4F840FE1C073FBC008D925B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4F841001C073FBC008D925B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4F841011C073FBC008D925B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4F841041C073FBC008D925B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4F841061C073FBC008D925B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F841091C073FBC008D925B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,15 @@
 		E4F8411B1C073FBC008D925B /* CasieTaggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasieTaggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F8411F1C073FBC008D925B /* CasieTaggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasieTaggerUITests.m; sourceTree = "<group>"; };
 		E4F841211C073FBC008D925B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F8412D1C074DF2008D925B /* CasieSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CasieSDK.framework; sourceTree = "<group>"; };
+		E4F8412F1C075095008D925B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E4F841301C075095008D925B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E4F841321C0750C2008D925B /* TagsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsTableViewController.h; sourceTree = "<group>"; };
+		E4F841331C0750C2008D925B /* TagsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsTableViewController.m; sourceTree = "<group>"; };
+		E4F841381C075C68008D925B /* section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = section.h; sourceTree = "<group>"; };
+		E4F841391C075C68008D925B /* section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = section.m; sourceTree = "<group>"; };
+		E4F8413B1C075C7C008D925B /* item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = item.h; sourceTree = "<group>"; };
+		E4F8413C1C075C7C008D925B /* item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F841351C075138008D925B /* CasieSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,7 @@
 		E4F840EE1C073FBC008D925B = {
 			isa = PBXGroup;
 			children = (
+				E4F8412D1C074DF2008D925B /* CasieSDK.framework */,
 				E4F840F91C073FBC008D925B /* CasieTagger */,
 				E4F841131C073FBC008D925B /* CasieTaggerTests */,
 				E4F8411E1C073FBC008D925B /* CasieTaggerUITests */,
@@ -101,14 +129,20 @@
 		E4F840F91C073FBC008D925B /* CasieTagger */ = {
 			isa = PBXGroup;
 			children = (
-				E4F840FD1C073FBC008D925B /* AppDelegate.h */,
-				E4F840FE1C073FBC008D925B /* AppDelegate.m */,
-				E4F841001C073FBC008D925B /* ViewController.h */,
-				E4F841011C073FBC008D925B /* ViewController.m */,
+				E4F841381C075C68008D925B /* section.h */,
+				E4F841391C075C68008D925B /* section.m */,
+				E4F8413B1C075C7C008D925B /* item.h */,
+				E4F8413C1C075C7C008D925B /* item.m */,
+				E4F841321C0750C2008D925B /* TagsTableViewController.h */,
+				E4F841331C0750C2008D925B /* TagsTableViewController.m */,
 				E4F841031C073FBC008D925B /* Main.storyboard */,
 				E4F841061C073FBC008D925B /* Assets.xcassets */,
-				E4F841081C073FBC008D925B /* LaunchScreen.storyboard */,
 				E4F8410B1C073FBC008D925B /* Info.plist */,
+				E4F8412F1C075095008D925B /* MainViewController.h */,
+				E4F841301C075095008D925B /* MainViewController.m */,
+				E4F840FD1C073FBC008D925B /* AppDelegate.h */,
+				E4F840FE1C073FBC008D925B /* AppDelegate.m */,
+				E4F841081C073FBC008D925B /* LaunchScreen.storyboard */,
 				E4F840FA1C073FBC008D925B /* Supporting Files */,
 			);
 			path = CasieTagger;
@@ -150,6 +184,7 @@
 				E4F840F31C073FBC008D925B /* Sources */,
 				E4F840F41C073FBC008D925B /* Frameworks */,
 				E4F840F51C073FBC008D925B /* Resources */,
+				E4F841371C075138008D925B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +242,11 @@
 				TargetAttributes = {
 					E4F840F61C073FBC008D925B = {
 						CreatedOnToolsVersion = 7.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					E4F8410F1C073FBC008D925B = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -270,9 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F841021C073FBC008D925B /* ViewController.m in Sources */,
 				E4F840FF1C073FBC008D925B /* AppDelegate.m in Sources */,
+				E4F841311C075095008D925B /* MainViewController.m in Sources */,
+				E4F8413D1C075C7C008D925B /* item.m in Sources */,
+				E4F841341C0750C3008D925B /* TagsTableViewController.m in Sources */,
 				E4F840FC1C073FBC008D925B /* main.m in Sources */,
+				E4F8413A1C075C68008D925B /* section.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +456,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CasieTagger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = orcam.CasieTagger;
@@ -424,6 +471,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CasieTagger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = orcam.CasieTagger;

@@ -112,6 +112,12 @@
 			children = (
 				E4F841001C073FBC008D925B /* ViewController.h */,
 				E4F841011C073FBC008D925B /* ViewController.m */,
+				F801F1351C07503F008A90E5 /* taggingViewController.h */,
+				F801F1361C07503F008A90E5 /* taggingViewController.m */,
+				F801F1381C075299008A90E5 /* items.h */,
+				F801F1391C075299008A90E5 /* items.m */,
+				F801F13B1C0AD70A008A90E5 /* taggingTime.h */,
+				F801F13C1C0AD70A008A90E5 /* taggingTime.m */,
 				E4F841031C073FBC008D925B /* Main.storyboard */,
 				E4F841061C073FBC008D925B /* Assets.xcassets */,
 				E4F8410B1C073FBC008D925B /* Info.plist */,
@@ -119,12 +125,6 @@
 				E4F840FE1C073FBC008D925B /* AppDelegate.m */,
 				E4F841081C073FBC008D925B /* LaunchScreen.storyboard */,
 				E4F840FA1C073FBC008D925B /* Supporting Files */,
-				F801F1351C07503F008A90E5 /* taggingViewController.h */,
-				F801F1361C07503F008A90E5 /* taggingViewController.m */,
-				F801F1381C075299008A90E5 /* items.h */,
-				F801F1391C075299008A90E5 /* items.m */,
-				F801F13B1C0AD70A008A90E5 /* taggingTime.h */,
-				F801F13C1C0AD70A008A90E5 /* taggingTime.m */,
 			);
 			path = CasieTagger;
 			sourceTree = "<group>";

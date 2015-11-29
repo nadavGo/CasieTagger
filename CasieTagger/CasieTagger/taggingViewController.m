@@ -11,6 +11,11 @@
 
 @implementation taggingViewController
 
+- (void)viewDidLoad {
+	[super viewDidLoad];
+// do job
+}
+
 - (IBAction)startTaggingButtonPressed:(UIButton *)sender {
 	
 	//if already tagging, skip
@@ -45,12 +50,26 @@
 	[self printTaggingTimeToLog];
 }
 
-- (IBAction)holdToTagButtonPressed:(UIButton *)sender {
-}
-
 -(void)printTaggingTimeToLog
 {
-	NSLog(@"tagging for item: %@ from: %@ to %@", _currentItem, _currentTaggingTime.start, _currentTaggingTime.stop);
+	NSLog(@"%@",self.description) ;
 }
+
+-(NSString*)description
+{
+	return [NSString stringWithFormat:@"tagging for item: %@ from: %@ to %@", _currentItem, _currentTaggingTime.start, _currentTaggingTime.stop];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+	return _currentItem.taggingTimes.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	return NULL;
+}
+
+
 
 @end

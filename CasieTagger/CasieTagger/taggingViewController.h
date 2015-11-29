@@ -10,18 +10,19 @@
 #import "items.h"
 #import "taggingTime.h"
 
-@interface taggingViewController : UIViewController
+@interface taggingViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
 
 @property (nonatomic) BOOL nowTagging;
 @property (weak, nonatomic) taggingTime* currentTaggingTime;
 @property (weak, nonatomic) items* currentItem;
+@property (weak, nonatomic) NSArray* timesTableViewDataSource;
 
 - (IBAction)startTaggingButtonPressed:(UIButton *)sender;
 - (IBAction)stopTaggingButtonPressed:(UIButton *)sender;
-- (IBAction)holdToTagButtonPressed:(UIButton *)sender;
 
 -(void)printTaggingTimeToLog;
-
+-(NSString*)description;
 
 
 @end

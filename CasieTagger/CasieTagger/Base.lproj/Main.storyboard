@@ -73,7 +73,6 @@
                                 <state key="normal" title="start tagging"/>
                                 <connections>
                                     <action selector="startTaggingButtoPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="SuQ-5y-MPc"/>
-                                    <action selector="startTaggingButtonPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="len-QX-7Uk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHX-j8-vWf">
@@ -82,7 +81,6 @@
                                 <state key="normal" title="stop tagging"/>
                                 <connections>
                                     <action selector="stopTaggingButtoPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="nYb-qr-xQ7"/>
-                                    <action selector="stopTaggingButtonPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="RbX-4w-X5h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dM1-jj-4QO">
@@ -92,7 +90,31 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="hold to tag"/>
+                                <connections>
+                                    <action selector="startTaggingButtonPressed:" destination="n3q-qx-foy" eventType="touchDown" id="fyk-4V-Npr"/>
+                                    <action selector="stopTaggingButtonPressed:" destination="n3q-qx-foy" eventType="touchUpInside" id="s3I-6e-R7N"/>
+                                </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mAS-cR-1Zf">
+                                <rect key="frame" x="20" y="422" width="374" height="294"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mve-14-Q4H">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mve-14-Q4H" id="b83-Ll-xB6">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="delegate" destination="n3q-qx-foy" id="ukB-4X-8st"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

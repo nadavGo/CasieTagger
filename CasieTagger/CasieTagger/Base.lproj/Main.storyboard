@@ -37,21 +37,33 @@
             </objects>
             <point key="canvasLocation" x="191" y="444"/>
         </scene>
+<<<<<<< HEAD
         <!--Tags Table View Controller-->
         <scene sceneID="EAm-Jl-dy6">
             <objects>
                 <tableViewController id="pN9-bL-D5K" customClass="TagsTableViewController" sceneMemberID="viewController">
+=======
+        <!--Table View Controller-->
+        <scene sceneID="EAm-Jl-dy6">
+            <objects>
+                <tableViewController id="pN9-bL-D5K" sceneMemberID="viewController">
+>>>>>>> origin/Nadav
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="wWq-rA-Ig5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1QN-EQ-frb">
+<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+=======
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+>>>>>>> origin/Nadav
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1QN-EQ-frb" id="5qY-14-Hc3">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+<<<<<<< HEAD
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Section name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfu-6q-uQl">
                                             <rect key="frame" x="12" y="11" width="105" height="21"/>
@@ -60,6 +72,8 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+=======
+>>>>>>> origin/Nadav
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -68,6 +82,7 @@
                             <outlet property="delegate" destination="pN9-bL-D5K" id="f1Y-Zs-90C"/>
                         </connections>
                     </tableView>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="W5k-2E-fcm">
                         <rightBarButtonItems>
                             <barButtonItem systemItem="add" id="Vsy-qg-0Mb">
@@ -86,6 +101,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="594-rq-dAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1755" y="444"/>
+=======
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="594-rq-dAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="921" y="444"/>
+>>>>>>> origin/Nadav
         </scene>
         <!--View Controller-->
         <scene sceneID="LG0-X7-SI7">
@@ -103,6 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="owA-20-RTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="2543" y="444"/>
         </scene>
         <!--Navigation Controller-->
@@ -122,6 +144,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geR-Rz-QlH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="933" y="444"/>
+=======
+            <point key="canvasLocation" x="1635" y="444"/>
+>>>>>>> origin/Nadav
         </scene>
     </scenes>
 </document>
